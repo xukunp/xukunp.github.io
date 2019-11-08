@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xukunp.github.io/"/>
-  <updated>2019-11-07T15:13:56.417Z</updated>
+  <updated>2019-11-08T03:38:54.348Z</updated>
   <id>https://xukunp.github.io/</id>
   
   <author>
@@ -15,6 +15,74 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>16th-test-post</title>
+    <link href="https://xukunp.github.io/2019/11/08/16th-test-post/"/>
+    <id>https://xukunp.github.io/2019/11/08/16th-test-post/</id>
+    <published>2019-11-08T03:38:08.000Z</published>
+    <updated>2019-11-08T03:38:54.348Z</updated>
+    
+    <content type="html"><![CDATA[<p>16th test post from win10 computer,do not git to github.</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt; &lt;font face=&quot;黑体&quot; color=Tomato size=4&gt; 摘要：     &lt;/font&gt; &lt;/center&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>14th-test-vscode-git-function</title>
+    <link href="https://xukunp.github.io/2019/11/07/14th-test-vscode-git-function/"/>
+    <id>https://xukunp.github.io/2019/11/07/14th-test-vscode-git-function/</id>
+    <published>2019-11-07T15:39:15.000Z</published>
+    <updated>2019-11-07T15:50:23.383Z</updated>
+    
+    <content type="html"><![CDATA[<p>test vs code git function.</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;test vs code git function.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="vscode" scheme="https://xukunp.github.io/categories/vscode/"/>
+    
+    
+      <category term="vscode" scheme="https://xukunp.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>13th-test-post-in-vscode-terminal</title>
+    <link href="https://xukunp.github.io/2019/11/07/13th-test-post-in-vscode-terminal/"/>
+    <id>https://xukunp.github.io/2019/11/07/13th-test-post-in-vscode-terminal/</id>
+    <published>2019-11-07T15:25:28.000Z</published>
+    <updated>2019-11-07T15:49:12.281Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="大吃一惊！"><a href="#大吃一惊！" class="headerlink" title="大吃一惊！"></a>大吃一惊！</h2><p>哟呵，vs code 这么好用的吗？所有问题在vs code里面就能全部实现了啊！！！不用在打开什么github desktop了，也不用markdown编辑器了！！！</p><h3 id="好用到爆！"><a href="#好用到爆！" class="headerlink" title="好用到爆！"></a>好用到爆！</h3><a id="more"></a><p>简直了啊！！！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;大吃一惊！&quot;&gt;&lt;a href=&quot;#大吃一惊！&quot; class=&quot;headerlink&quot; title=&quot;大吃一惊！&quot;&gt;&lt;/a&gt;大吃一惊！&lt;/h2&gt;&lt;p&gt;哟呵，vs code 这么好用的吗？所有问题在vs code里面就能全部实现了啊！！！不用在打开什么github desktop了，也不用markdown编辑器了！！！&lt;/p&gt;
+&lt;h3 id=&quot;好用到爆！&quot;&gt;&lt;a href=&quot;#好用到爆！&quot; class=&quot;headerlink&quot; title=&quot;好用到爆！&quot;&gt;&lt;/a&gt;好用到爆！&lt;/h3&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://xukunp.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://xukunp.github.io/tags/hexo/"/>
+    
+      <category term="test" scheme="https://xukunp.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>12th-1107-test-from-win10-computer</title>
@@ -206,9 +274,9 @@
       <category term="Testing" scheme="https://xukunp.github.io/categories/Testing/"/>
     
     
-      <category term="funny" scheme="https://xukunp.github.io/tags/funny/"/>
-    
       <category term="test" scheme="https://xukunp.github.io/tags/test/"/>
+    
+      <category term="funny" scheme="https://xukunp.github.io/tags/funny/"/>
     
   </entry>
   
