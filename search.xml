@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>不同电脑上同步hexo博客的方案</title>
+    <url>/2019/11/08/20191108-1st-post-about-multiple-computers/</url>
+    <content><![CDATA[<p>在折腾了几天之后，终于折腾好了hexo博客的next主题，在我的win10电脑上部署到了GitHub，此番折腾过程网络上教程很多，不赘述。这里主要说以下自己在不同电脑上同步更新hexo博客一个方案，分别以win10和mac为例说明。</p>
+<a id="more"></a>
+
+<h3 id="win10电脑"><a href="#win10电脑" class="headerlink" title="win10电脑"></a>win10电脑</h3><ul>
+<li><p>按照自己喜好编辑完主题，部署到GitHub上；</p>
+</li>
+<li><p>在github里新建一个名为==_post==的repository，将win10电脑中/source/_post里的文件都同步到GitHub的 _post的repo中去，可以使用git，也可以使用github自己的github desktop客户端；</p>
+</li>
+<li><p>复制win10电脑上的hexo博客文件夹，用U盘也可以，网盘也可以；</p>
+</li>
+</ul>
+<h3 id="Mac电脑"><a href="#Mac电脑" class="headerlink" title="Mac电脑"></a>Mac电脑</h3><ul>
+<li><p>将文件夹拷贝到其他电脑上，比如mac电脑上，删除==themes==文件夹中的.git文件夹（因为此文件是win10电脑上的部署信息，mac电脑要重新生成）；</p>
+</li>
+<li><p>在mac电脑上生产新的ssh key，并 将其复制、新增到GitHub settings里，使mac电脑能与GitHub通信；</p>
+</li>
+<li><p>mac电脑上下载GitHub desktop，删除复制过来的博客文件夹中的/source/_post，使用github客户端将github上的 _post仓库关联到 /source/ _post，同步下载 _post里的文件，这样win10电脑中的md文件就都到了mac电脑上；</p>
+</li>
+<li><p>在hexo文件夹/source/_post文件夹中生产的新的博客，进入终端，分别输入hexo g、hexo s命令，打开浏览器在本地查看效果；</p>
+</li>
+<li><p>deploy到github；</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>其实思路就是hexo的所有博客都是存放在  /source/ _post文件夹中的，hexo生产博客也是解析这个文件夹中的markdown文件，只要在不同电脑上同步这个文件夹，那问题就解决了，使用github的repo可以，使用网盘也可以，关键是在不同的电脑上保持更新这个文件夹就行。</p>
+<p>另外，新手意外发现visual studio code真是强大，所有的git、终端操作在这一个软件界面里都完成了，厉害！👍👍👍</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>

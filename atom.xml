@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xukunp.github.io/"/>
-  <updated>2019-11-08T03:38:54.348Z</updated>
+  <updated>2019-11-08T05:19:31.407Z</updated>
   <id>https://xukunp.github.io/</id>
   
   <author>
@@ -17,312 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>16th-test-post</title>
-    <link href="https://xukunp.github.io/2019/11/08/16th-test-post/"/>
-    <id>https://xukunp.github.io/2019/11/08/16th-test-post/</id>
-    <published>2019-11-08T03:38:08.000Z</published>
-    <updated>2019-11-08T03:38:54.348Z</updated>
+    <title>不同电脑上同步hexo博客的方案</title>
+    <link href="https://xukunp.github.io/2019/11/08/20191108-1st-post-about-multiple-computers/"/>
+    <id>https://xukunp.github.io/2019/11/08/20191108-1st-post-about-multiple-computers/</id>
+    <published>2019-11-08T03:58:34.000Z</published>
+    <updated>2019-11-08T05:19:31.407Z</updated>
     
-    <content type="html"><![CDATA[<p>16th test post from win10 computer,do not git to github.</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>在折腾了几天之后，终于折腾好了hexo博客的next主题，在我的win10电脑上部署到了GitHub，此番折腾过程网络上教程很多，不赘述。这里主要说以下自己在不同电脑上同步更新hexo博客一个方案，分别以win10和mac为例说明。</p><a id="more"></a><h3 id="win10电脑"><a href="#win10电脑" class="headerlink" title="win10电脑"></a>win10电脑</h3><ul><li><p>按照自己喜好编辑完主题，部署到GitHub上；</p></li><li><p>在github里新建一个名为==_post==的repository，将win10电脑中/source/_post里的文件都同步到GitHub的 _post的repo中去，可以使用git，也可以使用github自己的github desktop客户端；</p></li><li><p>复制win10电脑上的hexo博客文件夹，用U盘也可以，网盘也可以；</p></li></ul><h3 id="Mac电脑"><a href="#Mac电脑" class="headerlink" title="Mac电脑"></a>Mac电脑</h3><ul><li><p>将文件夹拷贝到其他电脑上，比如mac电脑上，删除==themes==文件夹中的.git文件夹（因为此文件是win10电脑上的部署信息，mac电脑要重新生成）；</p></li><li><p>在mac电脑上生产新的ssh key，并 将其复制、新增到GitHub settings里，使mac电脑能与GitHub通信；</p></li><li><p>mac电脑上下载GitHub desktop，删除复制过来的博客文件夹中的/source/_post，使用github客户端将github上的 _post仓库关联到 /source/ _post，同步下载 _post里的文件，这样win10电脑中的md文件就都到了mac电脑上；</p></li><li><p>在hexo文件夹/source/_post文件夹中生产的新的博客，进入终端，分别输入hexo g、hexo s命令，打开浏览器在本地查看效果；</p></li><li><p>deploy到github；</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>其实思路就是hexo的所有博客都是存放在  /source/ _post文件夹中的，hexo生产博客也是解析这个文件夹中的markdown文件，只要在不同电脑上同步这个文件夹，那问题就解决了，使用github的repo可以，使用网盘也可以，关键是在不同的电脑上保持更新这个文件夹就行。</p><p>另外，新手意外发现visual studio code真是强大，所有的git、终端操作在这一个软件界面里都完成了，厉害！👍👍👍</p>]]></content>
     
     <summary type="html">
     
-      &lt;center&gt; &lt;font face=&quot;黑体&quot; color=Tomato size=4&gt; 摘要：     &lt;/font&gt; &lt;/center&gt;
+      &lt;p&gt;在折腾了几天之后，终于折腾好了hexo博客的next主题，在我的win10电脑上部署到了GitHub，此番折腾过程网络上教程很多，不赘述。这里主要说以下自己在不同电脑上同步更新hexo博客一个方案，分别以win10和mac为例说明。&lt;/p&gt;
     
     </summary>
     
     
+      <category term="Hexo" scheme="https://xukunp.github.io/categories/Hexo/"/>
     
-  </entry>
-  
-  <entry>
-    <title>14th-test-vscode-git-function</title>
-    <link href="https://xukunp.github.io/2019/11/07/14th-test-vscode-git-function/"/>
-    <id>https://xukunp.github.io/2019/11/07/14th-test-vscode-git-function/</id>
-    <published>2019-11-07T15:39:15.000Z</published>
-    <updated>2019-11-07T15:50:23.383Z</updated>
     
-    <content type="html"><![CDATA[<p>test vs code git function.</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;test vs code git function.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="vscode" scheme="https://xukunp.github.io/categories/vscode/"/>
-    
-    
-      <category term="vscode" scheme="https://xukunp.github.io/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>13th-test-post-in-vscode-terminal</title>
-    <link href="https://xukunp.github.io/2019/11/07/13th-test-post-in-vscode-terminal/"/>
-    <id>https://xukunp.github.io/2019/11/07/13th-test-post-in-vscode-terminal/</id>
-    <published>2019-11-07T15:25:28.000Z</published>
-    <updated>2019-11-07T15:49:12.281Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="大吃一惊！"><a href="#大吃一惊！" class="headerlink" title="大吃一惊！"></a>大吃一惊！</h2><p>哟呵，vs code 这么好用的吗？所有问题在vs code里面就能全部实现了啊！！！不用在打开什么github desktop了，也不用markdown编辑器了！！！</p><h3 id="好用到爆！"><a href="#好用到爆！" class="headerlink" title="好用到爆！"></a>好用到爆！</h3><a id="more"></a><p>简直了啊！！！</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;大吃一惊！&quot;&gt;&lt;a href=&quot;#大吃一惊！&quot; class=&quot;headerlink&quot; title=&quot;大吃一惊！&quot;&gt;&lt;/a&gt;大吃一惊！&lt;/h2&gt;&lt;p&gt;哟呵，vs code 这么好用的吗？所有问题在vs code里面就能全部实现了啊！！！不用在打开什么github desktop了，也不用markdown编辑器了！！！&lt;/p&gt;
-&lt;h3 id=&quot;好用到爆！&quot;&gt;&lt;a href=&quot;#好用到爆！&quot; class=&quot;headerlink&quot; title=&quot;好用到爆！&quot;&gt;&lt;/a&gt;好用到爆！&lt;/h3&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://xukunp.github.io/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://xukunp.github.io/tags/hexo/"/>
-    
-      <category term="test" scheme="https://xukunp.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>12th-1107-test-from-win10-computer</title>
-    <link href="https://xukunp.github.io/2019/11/07/12th-1107-test-from-win10-computer/"/>
-    <id>https://xukunp.github.io/2019/11/07/12th-1107-test-from-win10-computer/</id>
-    <published>2019-11-07T15:12:38.000Z</published>
-    <updated>2019-11-07T15:13:56.417Z</updated>
-    
-    <content type="html"><![CDATA[<p>序号12，从win10电脑上编写一篇，测试能否depoly？</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;序号12，从win10电脑上编写一篇，测试能否depoly？&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11th-post-from-mac-computer</title>
-    <link href="https://xukunp.github.io/2019/11/07/11th-post-from-mac-computer/"/>
-    <id>https://xukunp.github.io/2019/11/07/11th-post-from-mac-computer/</id>
-    <published>2019-11-07T14:47:33.000Z</published>
-    <updated>2019-11-07T15:11:00.708Z</updated>
-    
-    <content type="html"><![CDATA[<p>第11篇文章，测试，从mac os 上deploy至 GitHub，并通过GitHub repo作中介，在不同的电脑上同步。</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;第11篇文章，测试，从mac os 上deploy至 GitHub，并通过GitHub repo作中介，在不同的电脑上同步。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>10th-hexo-github-mulit-deploy</title>
-    <link href="https://xukunp.github.io/2019/11/07/10th-hexo-github-mulit-deploy/"/>
-    <id>https://xukunp.github.io/2019/11/07/10th-hexo-github-mulit-deploy/</id>
-    <published>2019-11-07T13:21:29.000Z</published>
-    <updated>2019-11-07T15:11:00.705Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="测试多电脑部署"><a href="#测试多电脑部署" class="headerlink" title="测试多电脑部署"></a>测试多电脑部署</h3><p>hexo blog部署到Github pages，多电脑同步如何同步操作</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;center&gt; &lt;font face=&quot;黑体&quot; color=Tomato size=4&gt; 摘要：多电脑同步hexo至github pages     &lt;/font&gt; &lt;/center&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>7th archives</title>
-    <link href="https://xukunp.github.io/2019/11/07/archives/"/>
-    <id>https://xukunp.github.io/2019/11/07/archives/</id>
-    <published>2019-11-06T19:00:18.000Z</published>
-    <updated>2019-11-07T15:07:33.761Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>9th wooo</title>
-    <link href="https://xukunp.github.io/2019/11/06/9th-wooo/"/>
-    <id>https://xukunp.github.io/2019/11/06/9th-wooo/</id>
-    <published>2019-11-06T11:53:12.000Z</published>
-    <updated>2019-11-07T15:07:33.761Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>8th more test</title>
-    <link href="https://xukunp.github.io/2019/11/06/8th-more-test/"/>
-    <id>https://xukunp.github.io/2019/11/06/8th-more-test/</id>
-    <published>2019-11-06T11:50:35.000Z</published>
-    <updated>2019-11-07T15:07:33.760Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>6th</title>
-    <link href="https://xukunp.github.io/2019/11/06/6th/"/>
-    <id>https://xukunp.github.io/2019/11/06/6th/</id>
-    <published>2019-11-05T16:40:06.000Z</published>
-    <updated>2019-11-07T15:07:33.760Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>安装hexo</title>
-    <link href="https://xukunp.github.io/2019/11/05/install%20Hexo/"/>
-    <id>https://xukunp.github.io/2019/11/05/install Hexo/</id>
-    <published>2019-11-05T08:03:40.000Z</published>
-    <updated>2019-11-07T15:07:33.763Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="安装部署hexo"><a href="#安装部署hexo" class="headerlink" title="安装部署hexo"></a>安装部署hexo</h3><ol><li><p>安装 Hexo 相当简单，只需要先安装下列应用程序即可：</p><ul><li><a href="http://nodejs.org/" target="_blank" rel="noopener">Node.js</a> (Node.js 版本需不低于 8.6，建议使用 Node.js 10.0 及以上版本)</li><li><a href="http://git-scm.com/" target="_blank" rel="noopener">Git</a></li></ul></li><li><p>使用 npm 即可完成 Hexo 的安装，</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li><li><p>使用 npm 安装 Hexo；    </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>如果安装提示错误，可能是缓存、镜像站点的问题，先更换镜像，在安装hexo</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1、清除cache</span><br><span class="line">npm cache clean --force   </span><br><span class="line">2、不要用淘宝镜像，变更镜像如下</span><br><span class="line">npm set registry https://registry.npmjs.org/</span><br></pre></td></tr></table></figure></li><li><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1、 hexo init &lt;folder&gt;   #新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。</span><br><span class="line">2、 cd &lt;folder&gt; </span><br><span class="line">3、 npm install</span><br></pre></td></tr></table></figure></li><li><p>生成静态文件  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure><table><thead><tr><th align="left">选项</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>-d</code>, <code>--deploy</code></td><td align="left">文件生成后立即部署网站</td></tr><tr><td align="left"><code>-w</code>, <code>--watch</code></td><td align="left">监视文件变动</td></tr><tr><td align="left"><code>-b</code>, <code>--bail</code></td><td align="left">生成过程中如果发生任何未处理的异常则抛出异常</td></tr><tr><td align="left"><code>-f</code>, <code>--force</code></td><td align="left">强制重新生成文件 Hexo 引入了差分机制，如果 <code>public</code> 目录存在，那么 <code>hexo g</code> 只会重新生成改动的文件。 使用该参数的效果接近 <code>hexo clean &amp;&amp; hexo generate</code></td></tr><tr><td align="left"><code>-c</code>, <code>--concurrency</code></td><td align="left">最大同时生成文件的数量，默认无限制</td></tr></tbody></table></li><li><p>启动服务器。默认情况下，访问网址为： <code>http://localhost:4000/</code>。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><table><thead><tr><th align="left">选项</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>-p</code>, <code>--port</code></td><td align="left">重设端口</td></tr><tr><td align="left"><code>-s</code>, <code>--static</code></td><td align="left">只使用静态文件</td></tr><tr><td align="left"><code>-l</code>, <code>--log</code></td><td align="left">启动日记记录，使用覆盖记录格式</td></tr></tbody></table></li><li><p>常用的Hexo 命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo -g #安装Hexo</span><br><span class="line">npm update hexo -g #升级</span><br><span class="line">hexo init #初始化博客</span><br></pre></td></tr></table></figure><p>命令简写</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; #新建文章</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</span><br><span class="line">hexo server -s #静态模式</span><br><span class="line">hexo server -p 5000 #更改端口</span><br><span class="line">hexo server -i 192.168.1.1 #自定义 IP</span><br><span class="line">hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</span><br></pre></td></tr></table></figure></li></ol><a id="more"></a><h3 id="站点配置修改"><a href="#站点配置修改" class="headerlink" title="站点配置修改"></a>站点配置修改</h3><h4 id="网站配置文件"><a href="#网站配置文件" class="headerlink" title="网站配置文件"></a>网站配置文件</h4><p>在 根目录下的<code>_config.yml</code>文件是<strong>站点配置文件</strong>，其中可以修改大部分的配置。</p><table><thead><tr><th align="left">参数</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>title</code></td><td align="left">网站标题</td></tr><tr><td align="left"><code>subtitle</code></td><td align="left">网站副标题</td></tr><tr><td align="left"><code>description</code></td><td align="left">网站描述</td></tr><tr><td align="left"><code>keywords</code></td><td align="left">网站的关键词。使用半角逗号 <code>,</code> 分隔多个关键词。</td></tr><tr><td align="left"><code>author</code></td><td align="left">您的名字</td></tr><tr><td align="left"><code>language</code></td><td align="left">网站使用的语言</td></tr><tr><td align="left"><code>timezone</code></td><td align="left">网站时区。Hexo 默认使用您电脑的时区。<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank" rel="noopener">时区列表</a>。比如说：<code>America/New_York</code>, <code>Japan</code>, 和 <code>UTC</code> 。</td></tr></tbody></table><p>其中，<code>description</code>主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。<code>author</code>参数用于主题显示文章的作者。</p><h4 id="站点域名配置"><a href="#站点域名配置" class="headerlink" title="站点域名配置"></a>站点域名配置</h4><h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><h4 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h4><p>根目录里的themes文件夹，里面也有个_config.yml文件，这个称为<strong>主题</strong>配置文件，如下图。</p><p><img src="https://pic4.zhimg.com/80/v2-4252029e5634bf91c7d58916ae2b8ac3_hd.jpg" alt="img"></p><h4 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h4><p><strong>更换主题</strong></p><p>如果你不喜欢Hexo默认的主题，可以更换不同的主题，主题传送门：<a href="https://link.zhihu.com/?target=https%3A//hexo.io/themes/">Themes</a> 我自己使用的是Next主题，可以在blog目录中的themes文件夹中查看你自己主题是什么。现在把默认主题更改成Next主题，在blog目录中（就是命令行的位置处于blog目录）打开命令行输入：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure><p>这是将Next主题下载到blog目录的themes主题下的next文件夹中。打开<strong>站点</strong>的_config.yml配置文件，修改主题为next</p><p><img src="https://pic1.zhimg.com/80/v2-b1997377e82408cb15b485c65ae00f70_hd.jpg" alt="img"></p><p>打开<strong>主题</strong>的_config.yml配置文件，不是站点主题文件，找到Scheme Settings</p><p><img src="https://pic2.zhimg.com/80/v2-1ac152c4aabe4c10b762ee27552f1105_hd.jpg" alt="img"></p><p>next主题有三个样式，我用的是Pisces，你们可以自己试试看，选择你自己喜欢的样式（只需要把行首的#去除，#是注释），选择好后，再次部署网站，hexo g、hexo d，查看效果。选择其他主题，按照上述过程即可实现。</p>]]></content>
-    
-    <summary type="html">
-    
-      description安装部署
-    
-    </summary>
-    
-    
-      <category term="HEXO" scheme="https://xukunp.github.io/categories/HEXO/"/>
-    
-    
-      <category term="funny" scheme="https://xukunp.github.io/tags/funny/"/>
-    
-      <category term="hexo博客" scheme="https://xukunp.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5th test</title>
-    <link href="https://xukunp.github.io/2019/11/05/5th-test/"/>
-    <id>https://xukunp.github.io/2019/11/05/5th-test/</id>
-    <published>2019-11-04T16:25:03.000Z</published>
-    <updated>2019-11-07T15:07:33.759Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-      <category term="PS3" scheme="https://xukunp.github.io/tags/PS3/"/>
-    
-      <category term="Games" scheme="https://xukunp.github.io/tags/Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4th 分类测试文章</title>
-    <link href="https://xukunp.github.io/2019/11/04/4th-%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <id>https://xukunp.github.io/2019/11/04/4th-分类测试文章/</id>
-    <published>2019-11-04T11:42:04.000Z</published>
-    <updated>2019-11-07T15:07:33.759Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="Testing" scheme="https://xukunp.github.io/categories/Testing/"/>
-    
-    
-      <category term="test" scheme="https://xukunp.github.io/tags/test/"/>
-    
-      <category term="funny" scheme="https://xukunp.github.io/tags/funny/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2nd welcome来到坑的世界</title>
-    <link href="https://xukunp.github.io/2019/08/14/2019-08-14-2nd-welcome/"/>
-    <id>https://xukunp.github.io/2019/08/14/2019-08-14-2nd-welcome/</id>
-    <published>2019-08-14T09:07:27.000Z</published>
-    <updated>2019-11-07T15:07:33.758Z</updated>
-    
-    <content type="html"><![CDATA[<p>真的遍地都是坑，唉<br>稍后详细说明。</p><p><strong>数学公式</strong><br> $ a+b=c^2 $</p><a id="more"></a><p><a href="http://world.people.com.cn/NMediaFile/2019/1105/MAIN201911052156000488028911555.JPG" target="_blank" rel="noopener">http://world.people.com.cn/NMediaFile/2019/1105/MAIN201911052156000488028911555.JPG</a></p><blockquote><p><strong>在主题中开启mathjax开关</strong><br>如何使用了主题了，别忘了在主题文件夹（Theme）中开启mathjax开关，下面以next主题为例，介绍下如何打开mathjax开关。<br>进入到主题目录，找到_config.yml配置问题，把mathjax默认的false修改为true，具体如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br></pre></td></tr></table></figure><p>别着急，这样还不够，<strong>还需要在文章的Front-matter里打开mathjax开关</strong>，如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: index.html</span><br><span class="line">date: 2016-12-28 21:01:30</span><br><span class="line">tags:</span><br><span class="line">mathjax: true</span><br><span class="line">--</span><br></pre></td></tr></table></figure><p>不要嫌麻烦，之所以要在文章头里设置开关，是因为考虑只有在用到公式的页面才加载 Mathjax，这样不需要渲染数学公式的页面的访问速度就不会受到影响了。</p></blockquote><p><img src="http://world.people.com.cn/NMediaFile/2019/1105/MAIN201911052156000488028911555.JPG" alt="2015-06-01 151026"></p><h1 id="一级目录"><a href="#一级目录" class="headerlink" title="一级目录"></a>一级目录</h1><h2 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h2><h2 id="1-2"><a href="#1-2" class="headerlink" title="1.2"></a>1.2</h2><h2 id="二级目录"><a href="#二级目录" class="headerlink" title="二级目录"></a>二级目录</h2><h3 id="三级目录1-2-1"><a href="#三级目录1-2-1" class="headerlink" title="三级目录1.2.1"></a>三级目录1.2.1</h3><h3 id="三级目录"><a href="#三级目录" class="headerlink" title="三级目录"></a>三级目录</h3><h4 id="4"><a href="#4" class="headerlink" title="4"></a>4</h4><p>444</p><h5 id="5级"><a href="#5级" class="headerlink" title="5级"></a>5级</h5><p>555</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;center&gt; &lt;font face=&quot;黑体&quot; color=Tomato size=4&gt;  摘要：2nd 数学公式   &lt;/font&gt; &lt;/center&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://xukunp.github.io/2018/11/06/hello-world/"/>
-    <id>https://xukunp.github.io/2018/11/06/hello-world/</id>
-    <published>2018-11-06T10:14:49.000Z</published>
-    <updated>2019-11-07T15:07:33.762Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://xukunp.github.io/categories/hexo/"/>
-    
-      <category term="blog" scheme="https://xukunp.github.io/categories/blog/"/>
-    
-    
-      <category term="hexo" scheme="https://xukunp.github.io/tags/hexo/"/>
-    
-      <category term="next" scheme="https://xukunp.github.io/tags/next/"/>
+      <category term="Hexo" scheme="https://xukunp.github.io/tags/Hexo/"/>
     
   </entry>
   
