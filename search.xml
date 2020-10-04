@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>20201004-how-to-study-well-as-a-freshman-in-collgeg</title>
+    <title>如何平稳过渡大学一年级</title>
     <url>/2020/10/04/20201004-how-to-study-well-as-a-freshman-in-collgeg/</url>
-    <content><![CDATA[<p>-–</p>
-<p>title: 如何平稳过渡大学一年级</p>
-<p>description: </p>
-<p>date: 2020-10-04 </p>
-<p>categories: education</p>
-<p>tags: 大学</p>
-<p>images: </p>
-<p>-–</p>
-<p>给小朋友的大学一年级一点建议，简而言之就是：迅速适应大学生活，建立适合自己的学习方式，降低学习曲线。</p>
+    <content><![CDATA[<p>给小朋友的大学一年级一点建议，简而言之就是：迅速适应大学生活，建立适合自己的学习方式，降低学习曲线。</p>
 <a id="more"></a>
 
 <p>中国的高等教育有很多问题，其中最大的一个就是，学习曲线太陡峭，这几乎是所有刚上大一的人的问题。在之前漫长的中学阶段，基本上是老师遵照课本的进度，把每一个知识点掰开揉碎了反复讲，题海战术反复给你学生练习，直到学生掌握知识点。好处是学生基础打得牢，最大的缺点是学生完全没有自学能力，没有掌握科学的学习方法。</p>
@@ -26,6 +18,12 @@
 <li>给同学讲解，不要想着：教会了同学把自己比下去了。学会一门课程最有效的方法就是教会一个不会人。所谓教学相长，互相帮助，你不懂的就要问同学，不要羞于问人。</li>
 </ol>
 ]]></content>
+      <categories>
+        <category>education</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+      </tags>
   </entry>
   <entry>
     <title>不同电脑上同步hexo博客的方案</title>
